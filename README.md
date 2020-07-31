@@ -1,3 +1,11 @@
+# Note about this package
+
+The base of this package is the Aerial-Core simulation of CTU - MRS that you can access in https://github.com/ctu-mrs/aerialcore_simulation
+
+The point of this package is launch the same environment with three drones looking for Jeff, to follow him.
+
+To start, go to `/aerial_drone/launch/three_drone_pylons_and_jeff` in terminal and use the command `./start.sh`
+
 # Aerial-Core simulation
 
 Repository with gazebo models and worlds for Aerial-Core project.
