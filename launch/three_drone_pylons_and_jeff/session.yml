@@ -21,9 +21,9 @@ windows:
   - spawn:
       layout: tiled
       panes:
-        - waitForSimulation; spawn_uav 1 --$UAV_TYPE --file uav1_pos.txt --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
-        - waitForSimulation; spawn_uav 2 --$UAV_TYPE --file uav2_pos.txt --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
-        - waitForSimulation; spawn_uav 3 --$UAV_TYPE --file uav3_pos.txt --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
+        - waitForSimulation; spawn_uav 1 --$UAV_TYPE --file uav1_pos.yaml --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
+        - waitForSimulation; spawn_uav 2 --$UAV_TYPE --file uav2_pos.yaml --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
+        - waitForSimulation; spawn_uav 3 --$UAV_TYPE --file uav3_pos.yaml --run --delete --enable-rangefinder --enable-rangefinder-up --enable-rplidar --enable-ground-truth --enable-bluefox-camera --enable-realsense-front
   - control:
       layout: tiled
       panes:
